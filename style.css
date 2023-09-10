@@ -75,6 +75,10 @@ button:hover{
     transition: border 0.2s;
 }
 
+@media (max-width: 768px) {
+    .cabecalho-item {
+        font-size: 10px; /* Reduza o tamanho da fonte para dispositivos móveis */
+    }
 
 body {
     background-color: black;
@@ -288,6 +292,7 @@ a {
     height: 500px;
 }
 
+/*Estilo Modo Claro*/
 .modo-claro {
     background-color: white;
 }
