@@ -17,15 +17,26 @@
     color: white;
 }
 
-#modo-claro-toggle{
+#modo-claro-toggle {
     margin: 1%;
+    height: 6px;
+    width: 4px;
+    display: flex; 
+    align-items: center;
+    cursor: pointer; 
+    background-color: black;
 }
 
-.modo{
+.modo-imagem {
     height: 8px;
     width: 8px;
 }
 
+
+.modo{
+    display: flex;
+    justify-content: flex-end;
+}
 
 button{
     color:black;
@@ -289,3 +300,6 @@ a {
     color:black;
 }
 
+.modo-claro #modo-claro-toggle {
+    background-color: white;
+}
