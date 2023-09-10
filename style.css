@@ -17,6 +17,16 @@
     color: white;
 }
 
+#modo-claro-toggle{
+    margin: 1%;
+}
+
+.modo{
+    height: 8px;
+    width: 8px;
+}
+
+
 button{
     color:black;
     padding: 1%;
@@ -47,7 +57,6 @@ button:hover{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    color: white;
 }
 
 .cabecalho-item:hover {
@@ -73,7 +82,6 @@ a {
 .titulo {
     text-align: center;
     padding: 3%;
-    color: white;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
@@ -268,3 +276,16 @@ a {
     background-color: var(---verde);
     height: 500px;
 }
+
+.modo-claro {
+    background-color: white;
+}
+
+.modo-claro *{
+    color: black;
+}
+
+.modo-claro .titulo{
+    color:black;
+}
+
