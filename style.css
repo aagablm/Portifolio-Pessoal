@@ -61,11 +61,7 @@ button:hover {
     padding: 3%;
 }
 
-.cabecalho-item,
-.cabecalho-item-2,
-.cabecalho-item-3,
-.cabecalho-item-4,
-.cabecalho-item-5 {
+.cabecalho-item {
     padding-left: 2%;
     padding-right: 2%;
     font-size: 20px;
@@ -134,7 +130,6 @@ a {
     .containers {
         display: flex;
         flex-direction: column;
-        border: 1px solid white;
     }
 }
 
